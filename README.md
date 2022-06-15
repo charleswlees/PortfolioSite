@@ -1,1 +1,1 @@
-This is a test website for me to test the integration of html, CSS, and JavaScript
+This is my Portfolio Website which will store my Personal Projects, Work, and Educational Experience.
