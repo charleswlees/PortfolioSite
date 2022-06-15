@@ -143,6 +143,12 @@ img{
   margin: 0;
 }
 
+.work img{
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+}
+
 .work .whitespace{
   margin: 45px;
 
