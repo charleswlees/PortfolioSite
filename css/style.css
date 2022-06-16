@@ -86,6 +86,10 @@ h3{
   font-size: 25px;
   /* text-decoration: underline; */
 }
+/* Fixes Top Header for non-final entries in each section */
+.entry h3{
+  margin-top: 5px;
+}
 ul{
   margin-bottom: 0;
 }
@@ -144,9 +148,6 @@ img{
   float: left;
   margin-right: 30px;
   
-}
-.project h3{
-  margin-top: 5px;
 }
 
 .project .entry{
