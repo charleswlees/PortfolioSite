@@ -46,7 +46,8 @@ Allows parent elements to adjust height to match floated elements */
 
 /* Section Container */
 .content_wrap{
-  width: 1000px;
+  max-width: 1000px;
+  width: 85%;
   padding:10px 10px 10px 10px;
   margin: 0 auto;
 }
