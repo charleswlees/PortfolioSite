@@ -150,11 +150,21 @@ img{
 }
 
 /* -----------Projects-------------------- */
+.project{
+  
+  background-color: #51ae79;
+}
+
+
+
 .project img{
   float: left;
   margin-right: 30px;
+  margin-bottom: 30px;
   
 }
+
+
 
 /* .project h3{
   margin-top: 0;
@@ -176,7 +186,7 @@ img{
 
 /* -----------Work Experience------------ */
 .work{
-  background-color: #51ae79;
+  background-color: #ae5186;
   padding:20px 10px 20px 10px;
   margin: 0;
 }
@@ -186,17 +196,29 @@ img{
   float: left;
   margin-right: 30px;
   width: 200px;
+  margin-bottom: 50px;
+}
+
+.work .lastImg{
+  float: left;
+  margin-right: 30px;
+  width: 200px;
+  margin-bottom: 75px;
 }
 
 .work .whitespace{
-  margin: 45px;
+  margin: 15px;
 
 }
 /* -----------Education------------------ */
 .education{
-  background-color: #ae5186;
+  
   padding:20px 10px 20px 10px;
   margin: 0;
+}
+
+.education .whitespace{
+  margin: 15px;
 }
 /* Footer Assets */
 footer{
