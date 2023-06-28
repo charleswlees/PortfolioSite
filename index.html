@@ -1,127 +1,186 @@
+<!-- 
+    Charlie Lees
+    CS5610 - Web Development
+    Project 1
+    Landing page
+-->
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charlie Lees Portfolio</title>
-    <link rel="stylesheet" href="https://use.typekit.net/zyn1wjx.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/navigation-menu.css" rel="stylesheet" />
+    <link href="./css/header.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./img/svg/logo.svg">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <!-- Fonts -->
+    <!-- Font Bold -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Regular -->
+
+    <!--Script for Naviagtion Menu-->
+    <script src="./javascripts/menu-script.js"></script>
+</head>
+
+<body>
     <main>
-      <!--------------------------  ABOUT / PROFILE  -------------------------->
-    <section class="header">
-      <div class="content_wrap">
-        <h1 class="page_title">Charlie Lees</h1>
-        <h1 class="page_top">Portfolio</h1>
-      </div>
-    </section>
-    <!--------------------------  EDUCATION -------------------------->
-    <section class="education">
-      <div class="content_wrap">
-      <h2>Education</h2>
-
-      
-      <section class="entry">
-        <h3>University of Maine - Orono, ME</h3>
-        <h4>Bachelors of Science in Finance, 2017-2021</h4>
-        <ul>
-          <li>Graduated Summa Cum Laude with a 3.8 GPA .</li>
-          <li>Concentration in Management Information Systems.</li>
-          <li>Involved in many extracurriculars inclduing touring musical groups, multicultural groups, and tutoring.</li>
-          <div class="whitespace"></div>
-          <li>Relevant Course Work: Problem Solving using Computer Programming, Information Systems & Technology, Network Design & Applications, Database Management, and Object-Oriented Programming. </li>
-        </ul>
-      </section>
-      <section>
-        <h3>Northeastern University - Portland, ME</h3>
-        <h4>Masters of Science in Computer Science, 2022-Present</h4>
-        <ul>
-          <li>Relevant Course Work: Discrete Mathematics, Intensive Foundations of Computer Science, and “Data Structures, Algorithms, and Apps.”</li>
-        </ul>
-      </section>
-     
-    </div>
-    </section>
-      
-
-      <!--------------------------  WORK EXPERIENCE  -------------------------->
-      <section class="work">
-        <div class="content_wrap">
-        <h2>Work Experience</h2>
-
-        <section class="clearfix entry">
-          <img src="images/TylerLogo.png">
-          <h3>Tyler Technologies</h3>
-          <h4>Technical Services Support Specialist</h4>
-          <p>2021 - 2022</p>
-          <ul>
-            <li>Troubleshot ~100 concurrent support cases; reviewed symptoms, resolved issues, and created documentation.</li>
-            <li>Navigated and analyzed Tyler Technologies Munis Databases to solve client problems.</li> 
-            <li>Collaborated with first tier manager to organize support technicians and ensure adherence to internal processes.</li>
-          </ul>
+        <!-- Header -->
+        <section class="header">
+            <div class="wrapper">
+            </div>
         </section>
-        <!-- <div class="whitespace"></div> -->
-        <section class="clearfix">
-          <img class = "lastImg" src="images/StoneCoastLogo.png">
-          <h3>Stone Coast Fund Services</h3>
-          <h4>Hedge Fund Accountant</h4>
-          <p>2022 - Present</p>
-          <ul>
-            <li>Gather and analyze investment information utilizing Excel; consolidate data into monthly Net Asset Value Packet used by hedge fund managers and investors to inform decision-making. </li>
-            <li>Reconcile daily trading activity to monitor potential fraud for hedge fund managing capital of $1.8 Billion.</li>
-            <li>Manage client communication to ensure support for cash movements and provide relevant documentation.</li>
-          </ul>
-        </section>
-        <div class="whitespace"></div>
+
+        <!-- Hamburger Navigation Menu-->
+        <div class="hamburgerMenu">
+            <ul>
+                <li>
+                    <!-- Home -->
+                    <a class="home-nav" href="./index.html">
+                        <svg width="800px" height="800px" viewBox="0 -0.5 21 21" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                            <title>home [#1391]</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs>
+
+                            </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1">
+                                <g id="Dribbble-Light-Preview" transform="translate(-419.000000, -720.000000)">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path
+                                            d="M379.79996,578 L376.649968,578 L376.649968,574 L370.349983,574 L370.349983,578 L367.19999,578 L367.19999,568.813 L373.489475,562.823 L379.79996,568.832 L379.79996,578 Z M381.899955,568.004 L381.899955,568 L381.899955,568 L373.502075,560 L363,569.992 L364.481546,571.406 L365.099995,570.813 L365.099995,580 L372.449978,580 L372.449978,576 L374.549973,576 L374.549973,580 L381.899955,580 L381.899955,579.997 L381.899955,570.832 L382.514204,571.416 L384.001,570.002 L381.899955,568.004 Z"
+                                            id="home-[#1391]">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <!-- Work History -->
+                    <a class="work-nav" href='./work-experience.html'>
+                        <svg width="800px" height="800px" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M192 128v704h384V128H192zm-32-64h448a32 32 0 0 1 32 32v768a32 32 0 0 1-32 32H160a32 32 0 0 1-32-32V96a32 32 0 0 1 32-32z" />
+                            <path
+                                d="M256 256h256v64H256v-64zm0 192h256v64H256v-64zm0 192h256v64H256v-64zm384-128h128v64H640v-64zm0 128h128v64H640v-64zM64 832h896v64H64v-64z" />
+                            <path
+                                d="M640 384v448h192V384H640zm-32-64h256a32 32 0 0 1 32 32v512a32 32 0 0 1-32 32H608a32 32 0 0 1-32-32V352a32 32 0 0 1 32-32z" />
+                        </svg>
+                        Work
+                    </a>
+
+                </li>
+                <li>
+                    <!-- Education History -->
+                    <a class="education-nav" href='./education.html'>
+                        <svg width="800px" height="800px" viewBox="0 0 32 32" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <title>library</title>
+                            <path
+                                d="M3.425 13.953c0 0 24.137 0 24.173 0 0.583-0.255 0.557-0.802 0.011-1.165-0.547-0.365-12.119-8.718-12.119-8.718s-11.482 8.353-12.065 8.718c-0.582 0.363-0.619 0.91 0 1.165zM15.49 8.195c0.965 0 1.748 0.782 1.748 1.747s-0.783 1.748-1.748 1.748-1.747-0.783-1.747-1.748 0.782-1.747 1.747-1.747zM4.027 26.932h22.968v-0.977h-22.968v0.977zM9 24.936v-8.903h0.978v-1.103h-4.993v1.003h0.978v9.002h3.037zM17.030 24.936v-8.966h0.978v-0.978h-4.992v0.94h0.977v9.002h3.037zM3.030 28.93h24.963v-0.914h-24.963v0.914zM24.998 24.936v-8.966h0.978v-0.978h-4.993v0.94h0.979v9.002h3.036z">
+                            </path>
+                        </svg>
+                        Education
+                    </a>
+                </li>
+            </ul>
+            <button class="hamburgerMenuButton">
+                <span></span>
+            </button>
         </div>
-      </section>
-      <div class="floatContainer"></div>
-      
+        <!--Content-->
 
-      <!--------------------------  PROJECTS / PORTFOLIO  -------------------------->
-      <section class="project">
-        <div class="content_wrap">
-        <h2>Projects</h2>
+        <div class="wrapper">
+            <!-- Page Title -->
+            <h1 class="title" style="text-align: center">Charlie Lees</h1>
+        </div>
+        <div class="wrapper">
+            <table>
+                <tr>
+                    <td class="headshot">
+                        <img class="headshot" src="./img/Headshot.png" />
+                    </td>
+                    <td>
+                        <ul>
+                            <li class="description" style="list-style: none">
+                                I am a student at Northeastern University pursuing my Masters in Computer Science.
+                                While I study, I am also a Hedge Fund Accountant at Stone Coast Fund Services in
+                                Portalnd Maine.
 
-        <section class="clearfix entry">
-          <img src="images/MVC_Cookbook_Icon.png">
-          <h3>MVC Cookbook</h3>
-          <ul>
-            <li>A Python Program which stores the Description and Recipe for 10 of my family recipes in a user-friendly GUI that was created with Python's Tkinter Library.</li>
-            <li>This cookbook follows the Model View Controller Structure, the model was created with the Panda's Dataframe from the Panda's library.</li>
-          </ul>
-          <a class="button" href="https://github.com/charleswlees/MVC_Cookbook">Github Repo</a>
-        </section>
-        <div class="whitespace"></div>
-        <section class = "clearfix">
-          <img src="images/Homework_Reminder_Icon3.png">
-          <h3>API Homework Reminder</h3>
-          <ul>
-            <li>Wrote script in Java to call the Learning Management System API to gather Homework information, this script was automated via crontab on Linux.</li>
-            <li>Used third party libraries (such as org.JSON and Javax.mail) to interpret JSON and called the Gmail API—via Oauth2 authentication—to send out a comprehensive report on assignments due that day/week.</li>
-          </ul>
-          <a class="button" href="https://github.com/charleswlees/API_Homework_Reminder">Github Repo</a>
-        </section>
-        <div class="whitespace"></div>
+                                If you wish to see more information about my education/work experience, please use the
+                                navigational menu in the top left corner.
 
+
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- External Link Buttons -->
+        <div class="wrapper nav-icons">
+            <!-- Github -->
+            <button class="icon github" onclick="window.open('https://github.com/charleswlees','_blank')">
+                <svg width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9.29183 21V18.4407L9.3255 16.6219C9.36595 16.0561 9.58639 15.5228 9.94907 15.11C9.95438 15.1039 9.95972 15.0979 9.9651 15.0919C9.9791 15.0763 9.96988 15.0511 9.94907 15.0485V15.0485C7.52554 14.746 5.0005 13.7227 5.0005 9.26749C4.9847 8.17021 5.3427 7.10648 6.00437 6.27215C6.02752 6.24297 6.05103 6.21406 6.07492 6.18545V6.18545C6.10601 6.1482 6.11618 6.09772 6.10194 6.05134C6.10107 6.04853 6.10021 6.04571 6.09935 6.04289C6.0832 5.9899 6.06804 5.93666 6.05388 5.88321C5.81065 4.96474 5.86295 3.98363 6.20527 3.09818C6.20779 3.09164 6.21034 3.08511 6.2129 3.07858C6.22568 3.04599 6.25251 3.02108 6.28698 3.01493V3.01493C6.50189 2.97661 7.37036 2.92534 9.03298 4.07346C9.08473 4.10919 9.13724 4.14609 9.19053 4.18418V4.18418C9.22901 4.21168 9.27794 4.22011 9.32344 4.20716C9.32487 4.20675 9.32631 4.20634 9.32774 4.20593C9.41699 4.18056 9.50648 4.15649 9.59617 4.1337C11.1766 3.73226 12.8234 3.73226 14.4038 4.1337C14.4889 4.1553 14.5737 4.17807 14.6584 4.20199C14.6602 4.20252 14.6621 4.20304 14.6639 4.20356C14.7174 4.21872 14.7749 4.20882 14.8202 4.17653V4.17653C14.8698 4.14114 14.9187 4.10679 14.967 4.07346C16.6257 2.92776 17.4894 2.9764 17.7053 3.01469V3.01469C17.7404 3.02092 17.7678 3.04628 17.781 3.07946C17.7827 3.08373 17.7843 3.08799 17.786 3.09226C18.1341 3.97811 18.1894 4.96214 17.946 5.88321C17.9315 5.93811 17.9159 5.9928 17.8993 6.04723V6.04723C17.8843 6.09618 17.8951 6.14942 17.9278 6.18875C17.9289 6.18998 17.9299 6.19121 17.9309 6.19245C17.9528 6.21877 17.9744 6.24534 17.9956 6.27215C18.6573 7.10648 19.0153 8.17021 18.9995 9.26749C18.9995 13.747 16.4565 14.7435 14.0214 15.015V15.015C14.0073 15.0165 14.001 15.0334 14.0105 15.0439C14.0141 15.0479 14.0178 15.0519 14.0214 15.0559C14.2671 15.3296 14.4577 15.6544 14.5811 16.0103C14.7101 16.3824 14.7626 16.7797 14.7351 17.1754V21"
+                        fill="transparent" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path
+                        d="M4 17C4.36915 17.0523 4.72159 17.1883 5.03065 17.3975C5.3397 17.6068 5.59726 17.8838 5.7838 18.2078C5.94231 18.4962 6.15601 18.7504 6.41264 18.9557C6.66927 19.161 6.96379 19.3135 7.27929 19.4043C7.59478 19.4952 7.92504 19.5226 8.25112 19.485C8.5772 19.4475 8.89268 19.3457 9.17946 19.1855"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p style="color:white">Github</p>
+            </button>
+            <!-- Resume -->
+            <button class="icon" onclick="window.open('./Lees-Resume.pdf','_blank')">
+                <svg width="800px" height="800px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <title>work-case</title>
+                    <g id="Page-1" stroke="none" stroke-width="1">
+                        <g id="Combined-Shape" transform="translate(42.666667, 64.000000)">
+                            <path
+                                d="M277.333333,1.42108547e-14 L298.666667,21.3333333 L298.666,64 L426.666667,64 L426.666667,362.666667 L3.55271368e-14,362.666667 L3.55271368e-14,64 L128,64 L128,21.3333333 L149.333333,1.42108547e-14 L277.333333,1.42108547e-14 Z M42.6664912,220.935181 L42.6666667,320 L384,320 L384.000468,220.935097 C341.375319,233.130501 298.701692,240.759085 256.000479,243.809455 L256,277.333333 L170.666667,277.333333 L170.666323,243.809465 C127.965163,240.759108 85.2915887,233.130549 42.6664912,220.935181 Z M384,106.666667 L42.6666667,106.666667 L42.6668606,176.433085 C99.6386775,193.933257 156.507113,202.666667 213.333333,202.666667 C270.159803,202.666667 327.028489,193.933181 384.000558,176.432854 L384,106.666667 Z M256,42.6666667 L170.666667,42.6666667 L170.666667,64 L256,64 L256,42.6666667 Z">
+
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                <p style="color:white">CV</p>
+            </button>
+            <!-- Email -->
+            <button class="icon">
+                <a href="mailto:charles.w.lees@gmail.com">
+                    <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_429_11225)">
+                            <path d="M3 5H21V17C21 18.1046 20.1046 19 19 19H5C3.89543 19 3 18.1046 3 17V5Z"
+                                fill="transparent" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M3 5L12 14L21 5" fill="transparent" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_429_11225">
+                                <rect width="24" height="24" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <p style="color:white">Email</p>
+                </a>
+            </button>
 
         </div>
-      </section>
 
-      <!--------------------------  CONTACT INFO / SOCIAL MEDIA  -------------------------->
-      <footer class="contact">
-        <div class="content_wrap">
-          <h2 class="footer">Let's Keep in Touch!</h2>
-
-          <!-- Social media and contact links. Add or remove any networks. -->
-          <ul class="contact-list">
-            <li><a href="mailto:charles.w.lees@gmail.com">charles.w.lees@gmail.com</a></li>
-            <!-- <li><a href="http://yourwebsite.com" target="_blank">yourwebsite.com</a></li> -->
-            <li><a href="https://www.linkedin.com/in/charleswlees/" target="_blank">LinkedIn</a></li>
-          </ul>
-        </div>
-      </footer>
     </main>
-  </body>
+</body>
+
 </html>
