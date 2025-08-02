@@ -1,13 +1,11 @@
 /*
  * Charlie Lees
- * CS5610 - Web Development
- * Project 1
  * Style sheet for the header of all pages
  */
 
 
 .header{
-    background-color: #5158ae;
+    background: linear-gradient(135deg, #2d5016 0%, #3a6b1c 100%); 
     text-align: center;
     color: white;
     position: fixed;
@@ -21,7 +19,6 @@ body{
 }
 
 @media only screen and (max-width: 500px){
-    /*Put styles here for tiny boy screens*/
     .header{
         height: 50px;
     }

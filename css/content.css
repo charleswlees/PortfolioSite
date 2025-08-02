@@ -1,9 +1,8 @@
 /*
  * Charlie Lees
- * CS5610 - Web Development
- * Project 1
  * Style Pages for non-landing Page(s)
  */
+
 html{
   box-sizing: border-box;
   min-height: 100vh;
@@ -29,8 +28,6 @@ body{
   display: table;
 }
 img.logo{
-    /*height: 200px;
-    width: 200px;*/
     height:auto;
     width: 100%;
     min-width: 100px;
@@ -45,13 +42,13 @@ img.logo{
     margin-bottom: 15px;
 }
 td.description{
-    background-color:rgba(31,97,31,0.9);
+    background-color:rgba(61, 107, 28, 0.9); 
     padding: 10px 10px 10px 10px;
     color: white;
     border-radius: 20px;
 }
 table{
-    background-color:rgba(68,68,68,0.8);
+    background-color:rgba(101, 87, 74, 0.8); 
     border-radius: 20px;
 }
 
